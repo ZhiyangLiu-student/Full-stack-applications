@@ -1,0 +1,90 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: papayawhip;
+  }
+  
+.appEl {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    min-height: 100%;
+    background-color: white;
+}
+  
+.status {
+    margin-top: 20px;
+    color: red;
+}
+  
+.login {
+    margin: 20px;
+}
+  
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+  
+.user-list, .chat-list {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+  
+.left-side {
+    margin-right: 0;
+}
+  
+.users, .messages {
+    list-style: none;
+    padding: 0;
+}
+  
+.user p, .message p {
+    margin: 5px 0;
+}
+  
+.username {
+    font-weight: bold;
+}
+  
+.controls {
+    margin-top: 20px;
+}
+  
+.add-form {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+  
+input{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+  
+button {
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+  
+button:disabled {
+    background-color: grey;
+    cursor: not-allowed;
+}
+  
+.controls-logout {
+    background-color: red;
+}
